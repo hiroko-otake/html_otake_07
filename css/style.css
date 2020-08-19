@@ -1,0 +1,477 @@
+@charset "utf-8";
+html {
+  font-size: 62.5%;
+}
+
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+  color: #333333;
+  font-family:"Open Sans",'ヒラギノ角ゴ ProN W3', Hiragino Kaku Gothic ProN, "メイリオ", Meiryo, sans-serif;
+  font-size: 1.6rem;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  }
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* ヘッダー部分 */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header img{
+  width: 381px;
+  padding: 20px;
+}
+
+.nav-list {
+  display: flex;
+}
+
+.nav-item {
+  margin: 50px 50px 50px 0;
+  font-size: 2.1rem;
+  text-transform: uppercase;
+}
+
+/* トップイメージ部分 */
+
+.mainbg {
+  width: 100%;
+  height: 480px;
+  background-image: url(../img/mainbg.png);
+  margin: 0 0 60px;
+}
+
+.mainbg__title {
+  color: #fff;
+  font-size: 42px;
+  font-weight: bold;
+  text-align: center;
+  padding: 182px 0 0 0;
+}
+
+.mainbg__text {
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+  padding: 39px 0 0 0;
+}
+
+/* ABOUT部分 */
+
+.wrapper {
+  text-align: center;
+}
+
+.about__title {
+  color: #ffd61a;
+  font-size: 2.4rem;
+  font-weight: bold;
+  margin: 0 0 30px;
+  text-transform: uppercase;
+}
+
+.about__subtitle {
+  font-size: 1.8rem;
+  margin: 0 0 60px;
+}
+
+.about__text1 {
+  font-size: 1.6rem;
+  margin: 0 0 40px;
+}
+
+.about__text2 {
+  font-size: 1.6rem;
+  line-height: 2;
+  margin: 0 0 40px;
+}
+
+.about__text3 {
+  font-size: 1.6rem;
+  margin: 0 0 40px;
+}
+
+.about__text4 {
+  font-size: 1.6rem;
+  line-height: 2;
+  margin: 0 0 80px;
+}
+
+.about-container {
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 0 0 60px;
+}
+
+.about-container img {
+  width: 25%;
+}
+
+/* COURSE部分 */
+
+.course__title {
+  font-size: 2.4rem;
+  font-weight: bold;
+  margin: 0 0 30px;
+  text-transform: uppercase;
+}
+
+.course__text {
+  font-size: 1.6rem;
+  line-height: 2;
+  margin: 0 0 60px;
+}
+
+.course-content {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #fafafa;
+}
+
+.course__eyecatch {
+  width: 600px;
+  height: 400px;
+}
+
+.course__item01 {
+  width: 600px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+}
+
+.course__item02 {
+  width: 600px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+}
+
+.course__item03 {
+  width: 600px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+}
+
+.item-wrapper01 {
+  margin: 0 0 0 50px;
+  width: 430px;
+  height: 200px;
+}
+
+.item-wrapper02 {
+  margin: 0 50px 0 auto;
+  width: 430px;
+  height: 200px;
+}
+
+.item-wrapper03 {
+  margin: 0 0 0 50px;
+  width: 430px;
+  height: 200px;
+}
+
+.course01__hedding {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0 0 40px;
+  text-align: left;
+}
+
+.course02__hedding {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0 0 40px;
+}
+
+.course03__hedding {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0 0 40px;
+  text-align: left;
+}
+
+.course01__text {
+  font-size: 1.5rem;
+  line-height: 1.8;
+  text-align: left;
+}
+
+.course02__text {
+  font-size: 1.5rem;
+  line-height: 1.8;
+}
+.course03__text {
+  font-size: 1.5rem;
+  line-height: 1.8;
+  text-align: left;
+}
+
+
+
+section#course {
+  margin: 0 0 60px;
+}
+
+/* News部分 */
+
+p.news_title {
+  color: #ffd61a;
+  font-size: 2.4rem;
+  font-weight: bold;
+  margin: 0 0 30px;
+}
+
+p.news_subtitle {
+  font-size: 1.8rem;
+  margin: 0 0 60px;
+}
+
+.news-box {
+  display: flex;
+  justify-content: center;
+  margin: 0 0 60px;
+}
+
+.news__article {
+  width: 300px;
+  margin: 0 30px 0 0;
+  text-align: left;
+}
+
+.news__article>img {
+  margin: 0 0 30px;
+}
+
+p.article__date {
+  margin: 0 0 24px;
+}
+
+p.article__content {
+  font-size: 1.3rem;
+  text-align: left;
+  line-height: 2;
+}
+
+.news__article:hover {
+  background-color: #fafafa;
+  opacity: 0.8;
+}
+
+
+.btn {
+  display: block;
+  width: 300px;
+  margin: 0 auto 60px;
+  padding: 21px 0;
+  background-color: #ffd61a;
+  color: #fff;
+  font-size: 1.8rem;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.8;
+
+
+}
+
+/* Access部分 */
+
+.access-wrapper {
+  text-align: center;
+  padding: 60px 0;
+  background-color: #fafafa;
+  margin: 0 0 60px;
+}
+
+p.class__title {
+  font-size: 2.6rem;
+  font-weight: bold;
+  margin: 0 0 30px;
+  text-transform: uppercase;
+}
+
+h3.access_subtitle {
+  font-size: 1.8rem;
+  margin: 0 0 60px;
+}
+
+iframe {
+  margin: 0 0 60px;
+}
+
+.map {
+  width: 100%;
+}
+
+.access-inner {
+  display: flex;
+  flex-wrap: wrap;
+  width: 560px;
+  margin: auto;
+}
+
+.access-title {
+  width: 172px;
+  text-align: left;
+  line-height: 50px;
+}
+
+.access-item {
+  width: 388px;
+  text-align: left;
+  line-height: 50px;
+}
+
+
+/* Contact */
+
+.contact {
+  margin: 0 0 140px;
+}
+
+p.contact__title {
+  font-size: 2.4rem;
+  font-weight: bold;
+  margin: 0 0 30px;
+  text-transform: uppercase;
+}
+
+.contact__subtitle {
+  font-size: 1.8rem;
+  margin: 0 0 60px;
+}
+
+p.contact__text1 {
+  font-size: 1.6rem;
+  margin: 0 0 30px;
+  line-height: 1.7;
+}
+
+p.contact__text2 {
+  font-size: 1.6rem;
+  margin: 0 0 70px;
+  line-height: 1.7;
+}
+
+.contact-wrapper {
+  margin: 0 auto;
+  width: 640px;
+}
+
+.form-inner {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 0 30px;
+}
+
+.form-title1 {
+  width: 240px;
+  padding: 12px 64px 8px 16px;
+  border-top: solid 1px #bfbfbf;
+  border-right: solid 1px #bfbfbf;
+  box-sizing: border-box;
+}
+
+.form-item1 {
+  width: 400px;
+  padding: 8px 0 8px 8px;
+  border-top: solid 1px #bfbfbf;
+  box-sizing: border-box;
+}
+
+.form-title2 {
+  width: 240px;
+  padding: 12px 0 0 16px;
+  border-top: solid 1px #bfbfbf;
+  border-bottom:  solid 1px #bfbfbf;
+  border-right: solid 1px #bfbfbf;
+  box-sizing: border-box;
+}
+
+.form-item2 {
+  width: 400px;
+  padding: 8px 0 8px 8px;
+  border-top: solid 1px #bfbfbf;
+  border-bottom:  solid 1px #bfbfbf;
+  box-sizing: border-box;
+}
+
+.form-parts1 {
+  appearance:none;
+  -webkit-appearance:none;
+  -moz-appearance:none;
+  box-sizing: border-box;
+  width: 328px;
+  height: 36px;
+  padding: 8px;
+  font-size: 1.6rem;
+  border: solid 1px #bfbfbf;
+}
+
+.form-parts2 {
+  appearance:none;
+  -webkit-appearance:none;
+  -moz-appearance:none;
+  box-sizing: border-box;
+  width: 328px;
+  height: 108px;
+  padding: 8px;
+  font-size: 1.6rem;
+  border: solid 1px #bfbfbf;
+}
+
+.select {
+  appearance:none;
+  -webkit-appearance:none;
+  -moz-appearance:none;
+  width: 328px;
+  height: 36px;
+  font-size: 1.6rem;
+  border: solid 1px #bfbfbf;
+}
+
+.form-label {
+  display: block;
+  margin: 0 0 24px;
+}
+
+input[type*="radio"] {
+  appearance:none;
+  -webkit-appearance:none;
+  -moz-appearance:none;
+  width: 16px;
+  height: 16px;
+}
+
+/* FOOTER部分 */
+
+.footer {
+  padding: 30px 0;
+  background-color: #707070;
+}
+
+
+.copyrights {
+  display: block;
+  color: #fff;
+  text-align: center;
+}
